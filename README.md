@@ -1,29 +1,3 @@
-## 📚 Comprehensive README.md for Your Project Repository
-
-> **Key Takeaway:**
-> Below is the complete, standards-compliant `README.md` file, fully incorporating your repository’s structure, the new features and changes from PR #2, and all formatting and content requirements from `.github/prompts/tmg-docs.prompt.md`. This file is ready for direct use in your documentation branch and for submission in a Pull Request.
-
----
-
-```yaml
----
-title: Project Repository Documentation
-author: GitHub Repository Team
-date: 2026-02-27
-description: Comprehensive documentation for the project repository including new features from PR #2, setup instructions, usage examples, and development guidelines.
----
-```
-
-# Project Repository Documentation
-
-This document provides comprehensive documentation for the project repository, including new features introduced in PR #2, installation and setup instructions, usage examples, and development guidelines.
-
-## Table of Contents
-
-[TOC]
-
----
-
 ## Project Overview
 
 This repository contains a robust codebase designed for **[project purpose based on standard GitHub repository patterns]**. The project follows modern development practices with comprehensive testing, clear documentation, and modular architecture.
@@ -187,22 +161,3 @@ Content-Type: application/json
 > - **Dependency Errors:** Ensure all dependencies are installed and up to date.
 > - **Environment Variables:** Double-check your `.env` file for required variables.
 > - **API Authentication:** Use valid tokens for protected endpoints.
-
----
-
-## See Also / References
-
-- [Contribution Guidelines](CONTRIBUTING.md)
-- [API Documentation](docs/api.md)
-- [Changelog](CHANGELOG.md)
-- [GitHub Repository](https://github.com/your-org/your-repo)
-- [Diátaxis Documentation Framework](https://diataxis.fr/)
-
----
-
-> **Summary:**
-> This README.md provides a complete, standards-compliant overview of your project, including all new features and changes from PR #2, and is ready for use in your documentation branch and for submission in a Pull Request.
-
----
-
-**If you need to update or extend this documentation, always content standards.**
