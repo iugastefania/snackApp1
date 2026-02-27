@@ -1,6 +1,8 @@
 from models import db
 from models.category import Category
+from models.ingredient import Ingredient
 from models.association import recipe_category
+
 
 class Recipe(db.Model):
     __tablename__ = 'recipe'
@@ -16,3 +18,14 @@ class Recipe(db.Model):
         secondary=recipe_category,
         backref=db.backref('recipes', lazy='dynamic')
     )
+
+    def as_dict(self):
+        return {
+            "id": self.id,
+            "name": self.name,
+            "duration": self.duration,
+            "pictures": self.pictures.split(',') if self.pictures else [],
+            "instructions": self.instructions,
+            "categories": [cat.as_dict() for cat in self.categories],
+            "ingredients": [ing.as_dict() for ing in self.ingredients],
+        }
